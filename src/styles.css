@@ -1,3 +1,61 @@
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#kekou {
+    text-align: center;
+    font-family: 'seasideresortnfregular';
+    font-size: 64px;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    gap: 16px;
+    width: 75%;
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.cover-images {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#headline, #desc{
+    font-family: 'action_manregular';
+    font-size: 24px;
+}
+
+
+
 @font-face {
     font-family: 'action_manregular';
     src: url('./assets/fonts/action_man-webfont.woff2') format('woff2'),
