@@ -50,12 +50,35 @@ button {
     border-radius: 50%;
 }
 
-#headline, #desc{
+#headline, #desc, .menu-item{
     font-family: 'action_manregular';
     font-size: 24px;
 }
 
+.menu-item {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 50px;
+}
 
+.menu-image {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.item-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+}
 
 @font-face {
     font-family: 'action_manregular';
