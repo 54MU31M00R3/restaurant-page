@@ -62,7 +62,7 @@ button {
     padding: 50px;
 }
 
-.menu-image {
+.item-image {
     width: 100px;
     object-fit: cover;
     border-radius: 50%;
