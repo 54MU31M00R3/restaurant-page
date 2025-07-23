@@ -2,9 +2,6 @@ import greenTeaUrl from '../assets/images/green_gelato.jpg';
 import milkTeaUrl from '../assets/images/milk_tea_gelato.jpeg';
 
 const menuPage = (function () {
-    const page = document.createElement("div");
-    page.id = "content";
-
     let gelato = [
         {
             flavour: "GREEN TEA",
@@ -69,6 +66,9 @@ const menuPage = (function () {
         return menu;
     }
     const getPage = () => {
+        const page = document.createElement("div");
+        page.id = "content";
+
         const headline = getHeadline();
         page.appendChild(headline);
 

@@ -1,9 +1,6 @@
 import gelatoBobaUrl from '../assets/images/gelato_and_tea.jpg';
 
 const aboutPage = (function () {
-    const page = document.createElement("div");
-    page.id = "content"
-
     const getHeadline = () => {
         const headline = document.createElement("div");
         headline.id = "headline";
@@ -33,6 +30,9 @@ const aboutPage = (function () {
     }
 
     const getPage = () => {
+        const page = document.createElement("div");
+        page.id = "content" 
+
         const headline = getHeadline();
         page.appendChild(headline);
 

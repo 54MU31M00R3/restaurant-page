@@ -3,9 +3,6 @@ import redGreenGelato from "../assets/images/red_and_green_ice_cream.webp";
 import kekouStorefront from "../assets/images/kekou_storefront.webp";
 
 const homePage = (function () {
-    const page = document.createElement("div");
-    page.id = "content";
-
     const getHeadline = () => {
         const headline = document.createElement("div");
         headline.id = "headline";
@@ -44,6 +41,9 @@ const homePage = (function () {
         return homeDescription;
     }
     const getPage = () => {
+        const page = document.createElement("div");
+        page.id = "content";
+        
         const headline = getHeadline();
         page.appendChild(headline);
 
