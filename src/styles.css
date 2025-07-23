@@ -50,7 +50,7 @@ button {
     border-radius: 50%;
 }
 
-#headline, #desc, .menu-item{
+#headline, #desc, .menu-item, #about-desc{
     font-family: 'action_manregular';
     font-size: 24px;
 }
@@ -78,6 +78,16 @@ button {
 .item-header {
     display: flex;
     justify-content: space-between;
+}
+
+#about-desc {
+    text-align:justify;
+    padding-top: 16px;
+}
+
+#about-image {
+    height: auto;
+    border-radius: 16px;
 }
 
 @font-face {
